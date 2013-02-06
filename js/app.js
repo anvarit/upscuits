@@ -147,9 +147,9 @@ myApp.dashboard = (function($) {
 			['All Time', parseFloat(values[4])]
 		]),
 			options = {
-				width: 550,
-				height: 140,
-				min: 90,
+				width: 500,
+				height: 180,
+				min: 0,
 				max: 100,
 				redFrom: 90,
 				redTo: 95,
@@ -159,7 +159,7 @@ myApp.dashboard = (function($) {
 				greenTo: 100,
 				minorTicks: 5,
 			};  
-		var chart = new google.visualization.Gauge(document.getElementById('chart_' + id));
+		var chart = new google.visualization.Table(document.getElementById('chart_' + id));
 		chart.draw(data, options);
 	}
 

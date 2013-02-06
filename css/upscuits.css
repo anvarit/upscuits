@@ -2,7 +2,7 @@ body {
 	margin: -25px 100px 100px 100px;
 }
 .container {
-	width: 900px;
+	width: 565px;
 }
 .hero-unit {
 	background: #333333;
@@ -10,5 +10,21 @@ body {
 }
 
 .icon-red {
-	color: #FF2E00;
+	color: #ffffff;
+}
+
+.icon-time {
+	alignment: right;
+}
+
+.btn.btn-small-tip {
+	alignment: right;
+}
+
+.btn.btn-small-log {
+	alignment: right;
+}
+
+.btn.btn-small {
+	alignment: right;
 }
