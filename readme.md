@@ -30,6 +30,13 @@ Directions:
 3. Paste one ore more API keys as an array in `config.js`
 
 
+Modifications:
+---------------
+
+- Uses text graphs instead of the Gauge graphs
+- Smaller width size
+- No navigation bar
+
 Variations:
 ---------------
 
